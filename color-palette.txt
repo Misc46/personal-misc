@@ -1,0 +1,33 @@
+- Tailwind
+
+{ 'night': { DEFAULT: '#0a0a0a', 100: '#020202', 200: '#040404', 300: '#060606', 400: '#080808', 500: '#0a0a0a', 600: '#3b3b3b', 700: '#6c6c6c', 800: '#9d9d9d', 900: '#cecece' }, 'oxford_blue': { DEFAULT: '#14213d', 100: '#04070c', 200: '#080d19', 300: '#0c1425', 400: '#101b31', 500: '#14213d', 600: '#29447e', 700: '#3e67bf', 800: '#7e99d5', 900: '#beccea' }, 'orange_(web)': { DEFAULT: '#fca311', 100: '#362101', 200: '#6b4201', 300: '#a16402', 400: '#d68502', 500: '#fca311', 600: '#fdb541', 700: '#fec871', 800: '#fedaa0', 900: '#ffedd0' }, 'platinum': { DEFAULT: '#e5e5e5', 100: '#2e2e2e', 200: '#5c5c5c', 300: '#8a8a8a', 400: '#b8b8b8', 500: '#e5e5e5', 600: '#ebebeb', 700: '#f0f0f0', 800: '#f5f5f5', 900: '#fafafa' }, 'seasalt': { DEFAULT: '#f6f6f6', 100: '#313131', 200: '#626262', 300: '#939393', 400: '#c4c4c4', 500: '#f6f6f6', 600: '#f7f7f7', 700: '#f9f9f9', 800: '#fbfbfb', 900: '#fdfdfd' } }
+
+- CSV
+
+0a0a0a,14213d,fca311,e5e5e5,f6f6f6
+
+- With #
+
+#0a0a0a, #14213d, #fca311, #e5e5e5, #f6f6f6
+
+- Array
+
+["0a0a0a","14213d","fca311","e5e5e5","f6f6f6"]
+
+- Object
+
+{"Night":"0a0a0a","Oxford Blue":"14213d","Orange (web)":"fca311","Platinum":"e5e5e5","Seasalt":"f6f6f6"}
+
+- Extended Array
+
+[{"name":"Night","hex":"0a0a0a","rgb":[10,10,10],"cmyk":[0,0,0,96],"hsb":[0,0,4],"hsl":[0,0,4],"lab":[3,0,0]},{"name":"Oxford Blue","hex":"14213d","rgb":[20,33,61],"cmyk":[67,46,0,76],"hsb":[221,67,24],"hsl":[221,51,16],"lab":[13,5,-20]},{"name":"Orange (web)","hex":"fca311","rgb":[252,163,17],"cmyk":[0,35,93,1],"hsb":[37,93,99],"hsl":[37,98,53],"lab":[74,24,76]},{"name":"Platinum","hex":"e5e5e5","rgb":[229,229,229],"cmyk":[0,0,0,10],"hsb":[0,0,90],"hsl":[0,0,90],"lab":[91,0,0]},{"name":"Seasalt","hex":"f6f6f6","rgb":[246,246,246],"cmyk":[0,0,0,4],"hsb":[0,0,96],"hsl":[0,0,96],"lab":[97,0,0]}]
+
+- XML
+
+<palette>
+  <color name="Night" hex="0a0a0a" r="10" g="10" b="10" />
+  <color name="Oxford Blue" hex="14213d" r="20" g="33" b="61" />
+  <color name="Orange (web)" hex="fca311" r="252" g="163" b="17" />
+  <color name="Platinum" hex="e5e5e5" r="229" g="229" b="229" />
+  <color name="Seasalt" hex="f6f6f6" r="246" g="246" b="246" />
+</palette>
