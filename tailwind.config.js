@@ -8,13 +8,14 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-50%)' },
+        gradient: {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
         },
       },
       animation: {
-        marquee: 'marquee 15s linear infinite',
+        gradient: 'gradient 8s linear infinite',
       },
     },
   },
