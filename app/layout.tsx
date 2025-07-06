@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "./font.css";
+import Header from "./ReactBits/Header/Header";
+import Footer from "./ReactBits/Footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
