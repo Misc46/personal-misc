@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Dither from "../ReactBits/Dither/Dither";
 import SplitText from "../ReactBits/SplitText/SplitText";
-import projects from "../Data/projects.json";
+import projects from "../data/projects.json";
 
 export default function Projects() {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);

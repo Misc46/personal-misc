@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+      <body className="antialiased montserrat-400">
         <Header />
         {children}
         <Footer />

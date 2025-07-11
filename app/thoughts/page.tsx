@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import Dither from "../ReactBits/Dither/Dither";
-import projects from "../Data/projects.json";
+import projects from "../data/projects.json";
+import SplitText from "../ReactBits/SplitText/SplitText";
 
 export default function Thoughts() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -45,15 +46,30 @@ export default function Thoughts() {
       {/* Foreground content */}
       <main className="min-h-screen px-4 py-12 relative z-10">
         <div className="max-w-4xl mx-auto">
-          <h1
-            className="text-4xl md:text-5xl font-bold mb-12 text-center leading-tight text-orange-400"
-            style={{
-              textShadow: "0 2px 8px rgba(10,10,10,0.8), 0 0px 2px #0a0a0a",
-            }}
-          >
-            How I Think: Blending Engineering with Art for Creative, Precise
-            Solutions
-          </h1>
+          <div className="text-center mb-12">
+            <SplitText
+              text="Read My Thoughts"
+              className="fugaz-one text-orange-400 text-4xl md:text-6xl mb-6 overflow-visible"
+              delay={30}
+              duration={0.6}
+              ease="power3.out"
+              splitType="chars"
+              from={{ opacity: 0, y: 40 }}
+              to={{ opacity: 1, y: 0 }}
+              threshold={0.1}
+              rootMargin="-50px"
+              textAlign="center"
+            />
+            <h3
+              className="text-xl md:text-2xl leading-tight"
+              style={{
+                textShadow: "0 2px 8px rgba(10,10,10,0.8), 0 0px 2px #0a0a0a",
+              }}
+            >
+              How I Think: Blending Engineering with Art for Creative, Precise
+              Solutions
+            </h3>
+          </div>
 
           <section className="space-y-8">
             <article
