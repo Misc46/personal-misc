@@ -12,7 +12,7 @@ export default function Home() {
 
   const skills = [
     { name: "Frontend Development", icon: "🎨", description: "React, Next.js, TypeScript" },
-    { name: "Backend Systems", icon: "⚙️", description: "Node.js, Python, Database Design" },
+    { name: "Backend Systems", icon: "⚙️", description: "Node.js, MySQL, Database Design" },
     { name: "Creative Problem Solving", icon: "🧩", description: "Innovative Solutions & Architecture" },
     { name: "User Experience", icon: "✨", description: "Intuitive Design & Interaction" },
   ];
@@ -126,11 +126,11 @@ export default function Home() {
             <div className="space-y-6">
               <p className="text-gray-200 text-lg leading-relaxed montserrat-500">
                 I'm a developer who believes that technology should be as beautiful as it is functional. 
-                Every project I work on is an opportunity to blend engineering precision with creative vision.
+                Every project I work on, to me is an opportunity to focus on the creative aspect of software development,
+                where I can blend my technical skills with my passion for design and user experience.
               </p>
               <p className="text-gray-200 text-lg leading-relaxed montserrat-500">
-                My approach isn't just about writing code—it's about crafting experiences that resonate 
-                with users while maintaining the robust architecture that keeps everything running smoothly.
+                My approach is rooted in the understanding of both the technical and aesthetic aspects of software development.
               </p>
               <p className="text-gray-200 text-lg leading-relaxed montserrat-500">
                 Whether I'm building a complex web application or designing an intuitive interface, 

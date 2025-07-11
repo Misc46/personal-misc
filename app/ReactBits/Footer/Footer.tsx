@@ -141,25 +141,12 @@ export default function Footer() {
             </div>
             
             <div className="flex gap-6 text-sm text-gray-400">
-              <a 
-                href="/privacy" 
-                className="hover:text-orange-400 transition-colors duration-300 montserrat-500"
-              >
-                Privacy Policy
-              </a>
-              <a 
-                href="/terms" 
-                className="hover:text-orange-400 transition-colors duration-300 montserrat-500"
-              >
-                Terms of Service
-              </a>
+              Who are you when you are not coding?
             </div>
           </div>
 
           {/* Subtle decorative element */}
-          <div className="mt-8 text-center">
-            <div className="inline-block w-16 h-px bg-gradient-to-r from-transparent via-orange-400/50 to-transparent"></div>
-          </div>
+          
         </div>
       </div>
     </footer>

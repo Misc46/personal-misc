@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "Smart City Infrastructure Dashboard",
-    "description": "A comprehensive monitoring system with modular microservices architecture for real-time city data visualization and analytics.",
-    "longDescription": "Built using React and Node.js, this dashboard provides city officials with real-time insights into traffic patterns, energy consumption, and public service utilization. The system processes over 10,000 data points per minute and features predictive analytics for resource allocation.",
-    "tech": ["React", "Node.js", "MongoDB", "Docker", "D3.js"],
+    "title": "TIS FTUI",
+    "description": "A website for the Technique Informal School of FTUI, featuring a modern design and responsive elements.",
+    "longDescription": "Built using Next.js and Tailwind CSS, this project showcases a clean and modern design with responsive elements. It includes features like a dynamic course catalog, values, vision, and galery sections.",
+    "tech": ["React", "Next.js", "Tailwind CSS", "TypeScript", "Node.js"],
     "category": "web",
     "image": "/api/placeholder/600/400",
-    "liveUrl": "https://demo.smartcity.com",
-    "githubUrl": "https://github.com/misc/smart-city",
+    "liveUrl": "https://www.tis-ftui.com/",
+    "githubUrl": "https://github.com/EXERCISE-FTUI/TISxExercise-2025",
     "featured": true
   },
   {
