@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Silk from "../ReactBits/Silk/Silk";
+import Dither from "../ReactBits/Dither/Dither";
 import SplitText from "../ReactBits/SplitText/SplitText";
 
 export default function Contact() {
@@ -23,39 +23,40 @@ export default function Contact() {
   });
 
   const contactMethods = [
-    {
-      title: "Email",
-      description: "Reach out directly for project inquiries or collaborations",
-      icon: "📧",
-      detail: "hello@misc.dev",
-      action: "mailto:hello@misc.dev",
-      copyText: "hello@misc.dev"
-    },
-    {
-      title: "Professional Network",
-      description: "Connect with me on LinkedIn for professional opportunities",
-      icon: "💼",
-      detail: "linkedin.com/in/misc",
-      action: "https://linkedin.com/in/misc",
-      copyText: "linkedin.com/in/misc"
-    },
-    {
-      title: "Code Repository",
-      description: "Explore my open-source contributions and projects",
-      icon: "🔗",
-      detail: "github.com/misc",
-      action: "https://github.com/misc",
-      copyText: "github.com/misc"
-    },
-    {
-      title: "Phone",
-      description: "Call me for urgent matters or quick discussions",
-      icon: "📱",
-      detail: "+62 812 3456 7890",
-      action: "tel:+6281234567890",
-      copyText: "+62 812 3456 7890"
-    }
-  ];
+  {
+    title: "Email",
+    description: "Reach out directly for project inquiries or collaborations",
+    icon: "📧",
+    detail: "hafidzdwifebri23@gmail.com",
+    action: "mailto:hafidzdwifebri23@gmail.com",
+    copyText: "hafidzdwifebri23@gmail.com"
+  },
+  {
+    title: "Professional Network",
+    description: "Connect with me on LinkedIn for professional opportunities",
+    icon: "💼",
+    detail: "linkedin.com/in/dwifebrian",
+    action: "https://www.linkedin.com/in/dwifebrian/",
+    copyText: "linkedin.com/in/dwifebrian"
+  },
+  {
+    title: "Code Repository",
+    description: "Explore my open-source contributions and projects",
+    icon: "🔗",
+    detail: "github.com/misc46",
+    action: "https://github.com/misc46",
+    copyText: "github.com/misc46"
+  },
+  {
+    title: "Phone",
+    description: "Call me for urgent matters or quick discussions",
+    icon: "📱",
+    detail: "+62 896 0323 0206",
+    action: "tel:+6289603230206",
+    copyText: "+62 896 0323 0206"
+  }
+];
+
 
   const handleCopyToClipboard = (text: string, e: React.MouseEvent) => {
     e.preventDefault();
@@ -66,14 +67,17 @@ export default function Contact() {
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
-      {/* Silk as background */}
+      {/* Dither as background */}
       <div className="fixed inset-0 -z-10 w-full h-full">
-        <Silk
-          speed={3}
-          scale={1.2}
-          color="#14213d"
-          noiseIntensity={1.5}
-          rotation={15}
+        <Dither
+          waveColor={[0.32, 0.40, 0.60]}
+          disableAnimation={false}
+          enableMouseInteraction={true}
+          mouseRadius={0.3}
+          colorNum={9}
+          waveAmplitude={0.1}
+          waveFrequency={5}
+          waveSpeed={0.02}
         />
       </div>
 
