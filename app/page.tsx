@@ -119,7 +119,7 @@ export default function Home() {
               textShadow: "0 2px 8px rgba(10,10,10,0.8), 0 0px 2px #0a0a0a",
             }}
           >
-            The Story Behind The Code
+            My background & philosophy
           </h2>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
